@@ -1,0 +1,156 @@
+/* Element Selectors */
+body {
+  padding-top: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Class Selectors */
+.about-jumbo {
+  padding-bottom: 20px;
+  background-size: cover;
+  text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                      url("../img/test.jpg");
+}
+
+.bg-color,
+.btn {
+  background-color: #0082d6;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  background-color: #0082d6;
+  color: white;
+}
+
+.card-style {
+  border: 3px solid #0082d6;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 24px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.color {
+  color: #0082d6;
+}
+
+.highlight {
+  border: 2px solid #0082d6;
+  border-radius: 55px;
+}
+
+.home-jumbo {
+  padding-bottom: 20px;
+  background-size: cover;
+  text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                      url("../img/money.jpeg");
+}
+
+.img-edge {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 400px;
+  border: 3px solid #0082d6;
+}
+
+.links-jumbo {
+  padding-bottom: 20px;
+  background-size: cover;
+  text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                      url("../img/links.jpg");
+}
+
+.logo {
+  width: 200px;
+}
+
+.navbar {
+  opacity: 1.0;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.referral {
+  max-width: 280px;
+  max-height: 160px;
+}
+
+.remove {
+  color: inherit;
+}
+
+/* Psuedo Classes */
+.card:hover {
+  background-color: white;
+  color: #0082d6;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; 
+}
+
+.referral:hover,
+.links:hover {
+  opacity: 0.7;
+}
+
+.remove:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Descendant Selector */
+.navbar ul li a {
+  margin: 0;
+}
+
+/* Media Queries */
+@media (max-width: 450px) {
+  img {
+    width: 90%;
+  }
+
+  .test {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-second-adjust {
+    padding-bottom: 75px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .card-adjust {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bottom-vertical-adjust {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .vertical-adjust {
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .paragraph-adjust {
+    padding-left: 50px;
+  }
+}
+
+
+
